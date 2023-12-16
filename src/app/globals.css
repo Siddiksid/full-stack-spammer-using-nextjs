@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.message-box {
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #ccc;
+}
+.text-area {
+  width: 100%;
+  padding: 10px;
+  /* margin-inline: 50px; */
+}
+.text-btn {
+  width: 100%;
+  border-radius: 10px;
+  padding-block: 5px;
+}
+.like-btn {
+  display: flex;
+  gap: 5px;
+
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.comment-input,
+.edit-input {
+  margin-block: 20px;
+}
